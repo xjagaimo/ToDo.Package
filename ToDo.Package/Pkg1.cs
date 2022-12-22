@@ -10,11 +10,10 @@ namespace ToDo.Package
 {
     public class Pkg1
     {
-        public void updateApp(int mili)
+        public void updateApp(int mili)         //to start timer
         {
             Timer timer = new Timer();
             timer.Tick += new EventHandler(timer_tick);
-            //5 seconds
             timer.Interval = mili;
             timer.Start();
         }
@@ -24,7 +23,7 @@ namespace ToDo.Package
             
         }
 
-        public bool testTime(DateTime date)
+        public bool testTime(DateTime date)     //to know if the given time is possible for pop up notification
         {
             if ((date - DateTime.Now).TotalSeconds <= 0)
             {
@@ -33,7 +32,7 @@ namespace ToDo.Package
             return false;
         }
 
-        public DateTime dateConverter(string date)
+        public DateTime dateConverter(string date)      //to convert type of date & time from string to DateTime
         {
             return DateTime.ParseExact(date, "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
         }
