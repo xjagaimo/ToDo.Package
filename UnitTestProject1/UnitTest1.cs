@@ -17,5 +17,16 @@ namespace UnitTestProject1
             //Assert.AreEqual(worked, pkg.testTime(date1));
             
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Pkg1 pkg = new Pkg1();
+            DateTime date1 = new DateTime(2010, 10, 22, 10, 0, 0);
+            string datetime = "22/10/2010 10:00:00";
+
+            Assert.AreEqual(pkg.dateConverter(datetime), date1);
+            //Assert.AreEqual(worked, pkg.testTime(date1));
+        }
     }
 }
