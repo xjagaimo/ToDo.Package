@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Rexiar.Package.473742</id>
+    <version>1.0.0</version>
+    <title>ToDo.Package.Rexiar</title>
+    <authors>nathan.praja1902</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <description>ToDo.Package.Rexiar for ToDo App: Reminder Notes</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags></tags>
+  </metadata>
+</package>

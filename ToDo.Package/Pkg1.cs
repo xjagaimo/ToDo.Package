@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ToDo.Package
+namespace ToDo.Package.Rexiar
 {
     public class Pkg1
     {

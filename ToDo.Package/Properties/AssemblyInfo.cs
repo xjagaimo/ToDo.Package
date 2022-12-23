@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ToDo.Package")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ToDo.Package.Rexiar")]
+[assembly: AssemblyDescription("ToDo.Package.Rexiar")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ToDo.Package")]
+[assembly: AssemblyProduct("ToDo.Package.Rexiar")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
