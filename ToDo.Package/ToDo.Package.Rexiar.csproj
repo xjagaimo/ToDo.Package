@@ -7,8 +7,8 @@
     <ProjectGuid>{4343772F-BF08-4D6E-8025-BAFA0CFEA290}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ToDo.Package</RootNamespace>
-    <AssemblyName>ToDo.Package</AssemblyName>
+    <RootNamespace>ToDo.Package.Rexiar</RootNamespace>
+    <AssemblyName>ToDo.Package.Rexiar</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

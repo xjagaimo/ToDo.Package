@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ToDo.Package\ToDo.Package.csproj">
+    <ProjectReference Include="..\ToDo.Package\ToDo.Package.Rexiar.csproj">
       <Project>{4343772f-bf08-4d6e-8025-bafa0cfea290}</Project>
-      <Name>ToDo.Package</Name>
+      <Name>ToDo.Package.Rexiar</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
